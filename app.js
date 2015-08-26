@@ -3,7 +3,7 @@
 *
 */
 
-var SOURCE="./data-example.json"
+var SOURCE="./data.json"
 
 function formatDate(date){
   if(!date){
@@ -74,7 +74,8 @@ var HistoryList = React.createClass({
         for(var i=0; i<this.props.data.length;i++){
           var item = this.props.data[i];
           var end = new Date(item.term.end);
-          start = (item.term.start<start?item.term.start:start);
+          var current_start = new Date(item.term.start);
+          start = (current_start<start?current_start:start);
           if (item.term.end && date.getFullYear()!=end.getFullYear()){
             historyNodes.push(<HistoryTimeSeparator date={item.term.end} />);
             date=end;
