@@ -1,0 +1,131 @@
+@page {
+    /* this affects the margin in the printer settings */
+    margin: 25mm;
+}
+@media print
+{
+    .historyItem{
+        page-break-inside: avoid;
+    }
+    .documentEnd{
+        page-break-after: always;
+    }
+}
+.timelineHeader h1{
+  text-align: center;
+  margin-top:50px;
+  margin-bottom:3px;
+}
+.timelineHeader h2{
+  text-align: center;
+  margin:0px;
+}
+h1{
+  text-align: left;
+}
+h2{
+  text-align: left;
+  margin:0px;
+  font-size: 1.2em;
+}
+
+.secondary{
+  color: #6f6f6f;
+  font-weight: 300;
+}
+
+body{
+  background-color: #F8F8F8;
+  color: #333;
+  font: normal Arial,Helvetica,sans-serif;
+  margin: 20px;
+}
+.historyItem{
+  border-radius: 5px;
+  border: 1px solid #EFEFEF;
+  background-color: white;
+  width: 46%;
+  float:left;
+  padding: 15px 15px 5px;
+  margin: 50px 2% -40px;
+  box-sizing: border-box;
+  text-align: justify;
+}
+.historyItemWide{
+  width: 96%;
+}
+.historyItemDates{
+  float:right;
+  font-size: 0.8em;
+  margin-top:-15px;
+  color: #555;
+}
+.historyItemCategory{
+  margin-right: 10px;
+}
+.clearBoth{
+  clear:both;
+}
+.clearBothSeparator{
+  clear:both;
+  padding: 50px 0 0px;
+  margin-bottom: -40px;
+}
+.historyTimeSeparator{
+  clear:both;
+  margin: 0px auto;
+  width: 65px;
+  background-color: #cfcfcf;
+  color: #FFF;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  padding:1px;
+  border-radius: 20px;
+  border:1px solid #AAAAAA;
+}
+.historyList{
+  background-image: url('./bgtl.png');
+  background-position: center;
+  background-repeat: repeat-y;
+  padding-bottom: 50px;
+}
+.contactInfo{
+  margin: 20px 2% 0px;
+  box-sizing: border-box;
+}
+.contactInfo img{
+  height: 175px;
+  border-radius: 10px;
+  border: 2px solid #EFEFEF;
+  margin: 0px 20px 0px 0px;
+  float: left;
+}
+.contactInfoPresentation{
+  padding: 0px 10px 0px 0px;
+  width: 60%;
+  float:left;
+  box-sizing: border-box;
+  text-align: justify;
+}
+.contactInfoData{
+  /*margin: 10px;*/
+  float:right;
+  width: 40%;
+  box-sizing: border-box;
+  display: block;
+}
+.contactInfoData > span{
+  display: block;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+.contactInfoData span i{
+  /*float: left;*/
+}
+.contactInfoDataIcon{
+  width: 25px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}

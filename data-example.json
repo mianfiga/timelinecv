@@ -1,0 +1,97 @@
+{
+  "person": {
+    "name": "Your Name Here",
+    "profession": "Your professional Profile",
+    "personal": {
+      "image": "./image-example.jpg",
+      "presentation": "<p>Summary<\/p>",
+      "birth": "2015-08-26",
+      "nationality": "Spanish"
+    },
+    "contact": [{
+      "type": "phonenumber",
+      "value": "+34 600 00 00 00"
+    }, {
+      "type": "location",
+      "value": "Las Palmas de G.C., Spain"
+    }, {
+      "type": "email",
+      "value": "example@mafg.es"
+    }, {
+      "type": "language",
+      "value": "Spanish"
+    }, {
+      "type": "language",
+      "value": "2nd language"
+    }, {
+      "type": "driving",
+      "value": "Cat. B Driving License"
+    }, {
+      "type": "web ",
+      "value": "http://mafg.es "
+    }]
+  },
+  "timeline": [{
+    "title": "Example experience wide",
+    "company": "Example company",
+    "text": "<p>Example of wide experience<\/p>",
+    "align": "wide",
+    "term": {
+      "start": "2015-08-26",
+      "end": null
+    },
+    "categories": [
+      "experience"
+    ]
+  }, {
+    "title": "Example left",
+    "company": "company",
+    "text": "<p>Example of left experience<\/p>",
+    "align": "left",
+    "term": {
+      "start": "2014-08-01",
+      "end": "2014-07-01"
+    },
+    "categories": [
+      "experience"
+    ]
+  }, {
+    "title": "Another left example",
+    "company": "company",
+    "text": "<p>Example of left experience<\/p>",
+    "align": "left",
+    "term": {
+      "start": "2014-08-01",
+      "end": "2014-07-01"
+    },
+    "categories": [
+      "experience"
+    ]
+  }, {
+    "title": "Example course (right)",
+    "company": "Academy",
+    "text": "<p>Example of right training<\/p>",
+    "align": "right",
+    "term": {
+      "start": "2013-08-01",
+      "end": "2013-07-01"
+    },
+    "categories": [
+      "training"
+    ]
+  }, {
+    "title": "Project, training,experience",
+    "company": "Altogether",
+    "text": "<p>Example of everything together<\/p>",
+    "align": "wide",
+    "term": {
+      "start": "2012-08-01",
+      "end": "2012-07-01"
+    },
+    "categories": [
+      "project",
+      "training",
+      "experience"
+    ]
+  }]
+}
